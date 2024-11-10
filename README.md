@@ -5,17 +5,17 @@ password : password
 
 
 ## API
-POST /api/auth/login
-POST /api/customer/data
-GET /api/customer/get/{id}
-PUT /api/customer/update/{id}
-DELETE /api/customer/delete/{id}
-GET /api/customer/data
-POST /api/order/data
-GET /api/order/get/{id}
-PUT /api/order/update/{id}
-DELETE /api/order/delete/{id}
-GET /api/order/data
+#### POST /api/auth/login
+#### POST /api/customer/data
+#### GET /api/customer/get/{id}
+#### PUT /api/customer/update/{id}
+#### DELETE /api/customer/delete/{id}
+#### GET /api/customer/data
+#### POST /api/order/data
+#### GET /api/order/get/{id}
+#### PUT /api/order/update/{id}
+#### DELETE /api/order/delete/{id}
+#### GET /api/order/data
 
 ## ERD 
 ![image](database/erd.png)
