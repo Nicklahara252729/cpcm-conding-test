@@ -10,10 +10,6 @@
                     <span class="additional-breadcrumb breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0 ms-2"></span>
                 </ul>
             </div>
-            <button class="btn btn-lg btn-light-primary mb-3" id="back-to-start" hidden>
-                <i class="ki-outline ki-arrow-left fs-3"></i></span>
-                Kembali ke awal
-            </button>
         </div>
     </div>
 </div>

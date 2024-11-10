@@ -55,7 +55,6 @@
                             <!--end::Form-->
                         </div>
                         <!--end::Wrapper-->
-
                     </div>
                     <!--end::Content-->
                 </div>
