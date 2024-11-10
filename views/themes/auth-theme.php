@@ -73,6 +73,9 @@
 
     <script src="assets/js/config/config.js"></script>
     <script src="assets/js/config/custom.js"></script>
+    <script src="assets/js/utilities/request.js"></script>
+    <script src="assets/js/utilities/token.js"></script>
+    <script src="assets/js/utilities/sweetalert.js"></script>
 
     <script src="assets/js/src/auth/login/login-plugin.js"></script>
     <script src="assets/js/src/auth/login/login.js" type="module"></script>

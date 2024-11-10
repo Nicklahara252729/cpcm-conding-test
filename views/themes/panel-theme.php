@@ -24,8 +24,8 @@
     
     <link rel="stylesheet" href="assets/css/config/custom.css">
     <link rel="stylesheet" href="assets/css/config/vendor.css">
-    <link rel="stylesheet" type="text/css" href="css()['plugin'].css">
-    <link rel="stylesheet" type="text/css" href="css()['css'].css">
+    <link rel="stylesheet" type="text/css" href="assets/css/src/panel/<?= $page ?>/<?= $page ?>-plugin.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/src/panel/<?= $page ?>/<?= $page ?>.css">
 
     <!-- Datatables -->
     <link rel="stylesheet" href="assets/vendors/datatables/datatables.bundle.css">
@@ -51,7 +51,7 @@
                     <div class="app-main flex-column flex-row-fluid" id="kt_app_main">
                         <div class="d-flex flex-column flex-column-fluid">
                             <?php include('views/themes/components/breadcrumb.php') ?>
-                            <?php $_GET['page'] == 'customer' ? include('views/panel/customer/index.php') : include('views/panel/order/index.php') ?>
+                            <?php $page == 'customer' ? include('views/panel/customer/index.php') : include('views/panel/order/index.php') ?>
                         </div>
                     </div>
                     <?php include('views/themes/components/footer/panel.php') ?>
@@ -64,14 +64,17 @@
     <script src="assets/js/config/scripts.bundle.js"></script>
     <script src="assets/vendors/sweetalert2/sweetalert2.js"></script>
     <script src="assets/vendors/datatables/datatables.bundle.js"></script>
-
-
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
     <script src="assets/js/config/config.js"></script>
     <script src="assets/js/config/custom.js"></script>
+    <script src="assets/js/utilities/request.js"></script>
+    <script src="assets/js/utilities/token.js"></script>
+    <script src="assets/js/utilities/sweetalert.js"></script>
+    <script src="assets/js/utilities/signout.js"></script>
+    <script src="assets/js/utilities/user-data.js"></script>
 
-    <script src="js()['plugin'].js' "></script>
-    <script src="js()['js'].js' " type="module"></script>
-
+    <script src="assets/js/src/panel/<?= $page ?>/<?= $page ?>-plugin.js"></script>
+    <script src="assets/js/src/panel/<?= $page ?>/<?= $page ?>.js" type="module"></script>
     </body>
 
 </html>

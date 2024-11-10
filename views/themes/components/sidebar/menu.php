@@ -13,10 +13,10 @@
                 <!--begin::Name-->
                 <div class="d-flex flex-column align-items-start justify-content-center ms-3">
                     <span class="text-gray-500 fs-8 fw-semibold">Hello <span>
-                            <div class=" w-full py-2 ml-4 d-inline-block rounded-2">Admin</div>
+                            <div class=" w-full py-2 ml-4 d-inline-block rounded-2" id="info-name">load</div>
                         </span></span>
                     <a href="#" id="user-name" class="text-gray-800 fs-7 fw-bold text-hover-primary">
-                        <div class=" w-full ml-4 rounded-2">Administrator</div>
+                        <div class=" w-full ml-4 rounded-2" id="info-username">load</div>
                     </a>
                 </div>
                 <!--end::Name-->
@@ -36,8 +36,8 @@
                         <!--end::Avatar-->
                         <!--begin::Username-->
                         <div class="d-flex flex-column">
-                            <div id="user-name-menu" class="fw-bold d-flex align-items-center fs-5"></div>
-                            <a href="javascript:void(0)" id="user-level-menu"
+                            <div id="info-level" class="fw-bold d-flex align-items-center fs-5"></div>
+                            <a href="javascript:void(0)" id="info-level-menu"
                                 class="fw-semibold text-muted text-hover-primary fs-7"></a>
                         </div>
                         <!--end::Username-->
@@ -75,7 +75,7 @@
             data-kt-menu="true" data-kt-menu-expand="false">
 
             <div class="menu-item">
-                <a class="menu-link" href="?page=customer">
+                <a class="menu-link" href="/customer">
                     <span class="menu-icon">
                         <i class="ki-outline ki-user fs-2"></i>
                     </span>
@@ -84,7 +84,7 @@
             </div>
 
             <div class="menu-item ">
-                <a class="menu-link" href="?page=order">
+                <a class="menu-link" href="/order">
                     <span class="menu-icon">
                         <i class="ki-outline ki-category fs-2"></i>
                     </span>
